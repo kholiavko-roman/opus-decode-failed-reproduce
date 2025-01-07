@@ -1,4 +1,4 @@
-# Opus Decode Failure Reproduction
+# Opus Decode Failed Reproduction
 
 This repository contains code to reproduce the "opus decode failed" issue.
 

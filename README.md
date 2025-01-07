@@ -15,9 +15,9 @@ This repository contains code to reproduce the "opus decode failed" issue.
 
 ## System Specifications
 
-- **OS:** macOS 15.2
-- **CPU:** Apple M1 Pro
-- **GPU:** Apple M1 Pro
+- **OS:** macOS 15.2 / Ubuntu 24.04.1
+- **CPU:** Apple M1 Pro / Intel I7 13th Gen
+- **GPU:** Apple M1 Pro / Nvidia RTX 4070
 - **RAM:** 32GB
 - **Node.js:** 20.17.0
 - **Npm:** 10.2.3

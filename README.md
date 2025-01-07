@@ -4,11 +4,12 @@ this is a repository that contains code to reproduce the opus decode failed issu
 ## How to reproduce
 1. Clone this repository
 2. Run `npm i`
-3. Run `npm run dev`
-4. Wait for "app is registered" log
-5. Call to your softphone app
-6. Press "2" fast several times
-7. You will see "opus decode failed" in the console
+3. Create `.env` file and fill based on `.env.example`
+4. Run `npm run dev`
+5. Wait for "app is registered" log
+6. Call to your softphone app
+7. Press "2" fast several times
+8. You will see "opus decode failed" in the console
 
 ## Pc specs
 os: macOS 15.2

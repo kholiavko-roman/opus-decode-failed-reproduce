@@ -1,20 +1,23 @@
-# opus decode failed reproduce
-this is a repository that contains code to reproduce the opus decode failed issue
+# Opus Decode Failure Reproduction
 
-## How to reproduce
-1. Clone this repository
-2. Run `npm i`
-3. Create `.env` file and fill based on `.env.example`
-4. Run `npm run dev`
-5. Wait for "app is registered" log
-6. Call to your softphone app
-7. Press "2" fast several times
-8. You will see "opus decode failed" in the console
+This repository contains code to reproduce the "opus decode failed" issue.
 
-## Pc specs
-os: macOS 15.2
-cpu: Apple M1 Pro
-gpu: Apple M1 Pro
-ram: 32GB
-node: 20.17.0
-npm: 10.2.3
+## How to Reproduce
+
+1. Clone this repository.
+2. Run `npm install`.
+3. Create a `.env` file based on `.env.example`.
+4. Run `npm run dev`.
+5. Wait for the "app is registered" log.
+6. Make a call to your softphone app.
+7. Press "2" rapidly several times.
+8. Obtain the "opus decode failed" message in the console.
+
+## System Specifications
+
+- **OS:** macOS 15.2
+- **CPU:** Apple M1 Pro
+- **GPU:** Apple M1 Pro
+- **RAM:** 32GB
+- **Node.js:** 20.17.0
+- **Npm:** 10.2.3
